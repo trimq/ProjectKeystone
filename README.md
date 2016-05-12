@@ -3,13 +3,13 @@
 ##Mục lục:
 ####[1.Tổng quan chung về Keystone](#tongquan)
 <ul>
-<li>[1.1.Khái niệm]</li> (#khainiem)
-<li>[1.2.Công dụng]</li> (#congdung)
+-[1.1.Khái niệm](#khainiem)
+-[1.2.Công dụng](#congdung)
 </ul>
 ####[2.Cấu trúc của Keystone] (#cautruc)
 <ul>
-<li>[2.1.Kiến trúc của Keystone]</li> (#kientruc)
-<li>[2.2.Tác dụng của các thành phần]</li> (#thanhtphan)
+-[2.1.Kiến trúc của Keystone] (#kientruc)
+-[2.2.Tác dụng của các thành phần] (#thanhtphan)
 </ul>
 ####[3.Cơ chế hoạt động của Keystone trong Openstack] (#coche)
 ####[4.Các cơ chế xác thực trong Keystone] (#xacthuc)
