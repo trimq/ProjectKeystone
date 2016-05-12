@@ -2,15 +2,15 @@
 
 ##Mục lục:
 ####[1.Tổng quan chung về Keystone](#tongquan)
-<ul>
+
 -[1.1.Khái niệm](#khainiem)
 -[1.2.Công dụng](#congdung)
-</ul>
+
 ####[2.Cấu trúc của Keystone] (#cautruc)
-<ul>
+
 -[2.1.Kiến trúc của Keystone] (#kientruc)
 -[2.2.Tác dụng của các thành phần] (#thanhtphan)
-</ul>
+
 ####[3.Cơ chế hoạt động của Keystone trong Openstack] (#coche)
 ####[4.Các cơ chế xác thực trong Keystone] (#xacthuc)
 
