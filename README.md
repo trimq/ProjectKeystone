@@ -46,6 +46,7 @@ Về cơ bản Keytone có 4 thành phần, đó là: Identity, Token, Catalog, 
 <li>Bao gồm nhưng không giới hạn SQL, LDAP, và Federated Identiy</li>
 </ul>
 - Token: 
+<img src="https://www.safaribooksonline.com/library/view/identity-authentication-and/9781491941249/assets/image011.png">
 <ul>
 <li>Xác thực và quản lý sử dụng các token cho việ thẩm định yêu cầu 1 khi thông tin người dùng/ Tenant đã được xác định</li>
 <li>Các token chứa thông tin xác thực người dùng như username, password, email..</li>
@@ -59,7 +60,9 @@ Về cơ bản Keytone có 4 thành phần, đó là: Identity, Token, Catalog, 
 </ul>
 - Policy: Cung cấp các chính sách của Keystone 
 - Mỗi dịch vụ có thể chỉnh sửa để cho phép Keystone sử dụng 1 backend phù hợp với yêu cầu của môi trường. Backend của mỗi service dựa vào file keystone.conf
+
 - Các backend trong Keystone:
+<img src="https://www.safaribooksonline.com/library/view/identity-authentication-and/9781491941249/assets/image013.png">
 <ul>
 <li>KVS backend: Là 1 giao diện phụ trợ, hỗ trợ cho việc tra cứu các primary key</li>
 <li>SQL backend: Sử dụng SQLAIchemy để lưu trữ dữ liệu 1 các liên tục</li>
