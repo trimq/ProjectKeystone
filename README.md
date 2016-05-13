@@ -84,7 +84,7 @@ Keystone workflow:
 Có rất nhiều các để xác thực với dịch vụ Keystone. 2 cách phổ biến nhất hiện này là xác thực bằng cách cũng cấp 1 password hoặc 1 token.
 - *Password*: Cách phổ biến nhất đối với một người sử dụng hoặc dịch vụ để xác thực là cung cấp một mật khẩu.
 - *Token*: User có thể yêu cầu 1 token mới thông qua token hiện tại, payload của POST này ít hơn đáng kể so với password
-#####Quản lý truy cập và ủy quyền:
+-*Quản lý truy cập và ủy quyền:*
 Quản lý truy cập và ủy quyền là các APIs 1 user sử dụng là 1 lí do rất quan trọng để Keystone là 1 thành phần quan trọng trong Openstack. Cách tiếp cận của Keystone cho vấn đề này là tạo ra một policy Role-Based Access Control (RBAC) được thực thi trên mỗi public API endpoint. Các policy này được lưu trong 1 tập tin trên đĩa và đặt tên là policy.json.
 
 
