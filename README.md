@@ -35,8 +35,9 @@ Về cơ bản thì Keystone có 2 chức nắng chính
 
 <a name="kientruc"></a>
 #####2.1.Kiến trúc của Keystone:
+<img src="http://26a0ff8ca8ba32139f7d-db711c577a50b6bdc946ea71aaca027d.r97.cf1.rackcdn.com/openstack-conceptual-arch-folsom.jpg">
 Về cơ bản Keytone có 4 thành phần, đó là: Identity, Token, Catalog, Policy
-<img src="">
+<img src="http://1.bp.blogspot.com/-BLElS5LHrbI/VFcOwKqN7PI/AAAAAAAAAPw/sOi-hj4GJ-Q/s1600/keystone_backends.png">
 
 <a name="thanhphan"></a>
 #####2.2.Công dụng của các thành phần:
@@ -74,7 +75,8 @@ Về cơ bản Keytone có 4 thành phần, đó là: Identity, Token, Catalog, 
 <a name="coche"></a>
 ####3.Cơ chế hoạt động của Keystone trong Openstack:
 Keystone workflow:
-<img src="https://docs.google.com/drawings/d/12xmhLS3Jwqr3IbDkXj9Ta223fH49vRcZSLl23rjtL8A/edit?hl=en_US&pli=1">
+<img src="http://2.bp.blogspot.com/-bPiAf5VkWiM/VEoB4XbZRpI/AAAAAAAAAFs/ABl9iaxnyhQ/s1600/Keystone_identityMgr-diagram.png">
+
 
 <a name="xacthuc"></a>
 ####4.Các cơ chế xác thực trong Keystone:
