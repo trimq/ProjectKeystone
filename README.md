@@ -107,7 +107,7 @@ Actor được xem là các user và user group sử dụng Cloud, kể từ đ�
 <img src="http://916c06e9a68d997cd06a-98898f70c8e282fcc0c2dba672540f53.r39.cf1.rackcdn.com/ss.png:>
 - *Role*: Là những vai trò của User được phép thực hiện trong Project hoặc Domain
 
-<img src="https://open.ibmcloud.com/documentation/_images/UserManagementWithRoles.gif>
+<img src="https://camo.githubusercontent.com/045ea89e310e40d8067e344f40811027246d6974/68747470733a2f2f6f70656e2e69626d636c6f75642e636f6d2f646f63756d656e746174696f6e2f5f696d616765732f557365724d616e6167656d656e745769746847726f7570732e676966">
 
 
 
