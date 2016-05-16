@@ -13,6 +13,7 @@
 
 ###[3.Cơ chế hoạt động của Keystone trong Openstack] (#coche)
 ###[4.Các cơ chế xác thực trong Keystone] (#xacthuc)
+###[5.Một số khái niệm trong Identity, Authentication] (#authen)
 
 
 <a name="tongquan"></a>
@@ -86,6 +87,28 @@ Có rất nhiều các để xác thực với dịch vụ Keystone. 2 cách ph�
 - *Token*: User có thể yêu cầu 1 token mới thông qua token hiện tại, payload của POST này ít hơn đáng kể so với password
 - *Quản lý truy cập và ủy quyền*:
 Quản lý truy cập và ủy quyền là các APIs 1 user sử dụng là 1 lí do rất quan trọng để Keystone là 1 thành phần quan trọng trong Openstack. Cách tiếp cận của Keystone cho vấn đề này là tạo ra một policy Role-Based Access Control (RBAC) được thực thi trên mỗi public API endpoint. Các policy này được lưu trong 1 tập tin trên đĩa và đặt tên là policy.json.
+
+<a name="authen"></a>
+###5.Một số khái niệm trong authentication:
+#####5.1.Project:
+- Mỗi Project chứa những tài nguyên có thể giống và khác nhau, User cũng được coi là 1 dạng tài nguyên
+- Các Project có thể chứ nhiều User và mỗi User có thể nằm trong các Project khác nhau
+- Các User có quyền hạn khác nhau trong mỗi Project
+
+#####5.2.Domain:
+- Domain Keystone được sinh ra nhằm tránh tình trạng xảy ra xung đột giữa các Project, quyền hạn của các User.
+- Deer cho các tổ chức cùng 1 lúc sử dụng các dịch vụ mà không xảy ra xung đột.
+- Users có quyền hạn khác nhau đối với mỗi projects, mỗi domain.
+
+<img src="http://916c06e9a68d997cd06a-98898f70c8e282fcc0c2dba672540f53.r39.cf1.rackcdn.com/ss.png">
+
+#####5.3.Actor
+Actor được xem là các user và user group sử dụng Cloud, kể từ đó khi gán 1 role đó là những đối tượng mà Role giao đến
+<img src="http://916c06e9a68d997cd06a-98898f70c8e282fcc0c2dba672540f53.r39.cf1.rackcdn.com/ss.png:>
+- *Role*: Là những vai trò của User được phép thực hiện trong Project hoặc Domain
+
+<img src="https://open.ibmcloud.com/documentation/_images/UserManagementWithRoles.gif>
+
 
 
 
